@@ -1,0 +1,195 @@
+body
+{
+	background: url("image_plume.jpg");
+	width:auto;
+	display:flex;
+	flex-direction: column;
+}
+
+h1 /*bulle evasion*/
+	{
+		width:50%;
+		position:absolute;
+		top:0px;
+		margin :auto;
+		border:3px black groove;
+		border-radius: 20px;
+		box-shadow: 6px 6px 3px black;
+		text-align:center;
+		font-size: 40px;
+		color:rgb(123, 191, 218);
+		margin-bottom: 15px;
+	}
+
+h2 /*titres et profession*/
+{
+	text-align:center;
+	font-size: 35px;
+	color:rgb(19, 58, 66) ;
+}
+p
+{
+	font-size:30px;
+	font-weight: bold;
+	color:rgb(41, 83, 122);;
+	margin:2px;
+	width:auto;
+}
+em
+{
+	font-style: oblique;
+	font-size: 25px;
+	color:rgb(14, 46, 59);
+}
+footer
+{
+	text-align: center;
+	color:rgb(10, 61, 82);
+}
+	
+nav
+{
+	margin-top: 50px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+h3
+{
+	margin-left: 60%;
+	color:rgb(10, 61, 82);
+	font-size:50px;
+}
+ul
+	{
+		list-style-type:none;
+		display:flex;
+		margin-top: 80px;
+		margin-left: 20%;
+	}
+nav li
+	{
+		margin-right:25px;
+		font-size:20px;	
+		font-weight: bold;
+	}
+nav a
+	{
+		text-decoration:none;
+		font-size:25px;
+		color:rgb(80, 80, 224);
+		border:2px solid blue;
+		border-radius: 30px;
+		box-shadow: 5px 5px 5px black ;
+		padding:5px;
+	
+	}
+img
+{
+	width: 800px;
+	margin-left:20%
+}
+
+
+
+@media all and (max-width:1024px) /*responsive*/
+{
+	body
+	{
+		background:url("image_plume.jpg");
+		width:auto;
+		display:flex;
+		flex-direction: column;
+
+	}
+	
+	
+	h1 /*bulle evasion*/
+	{
+		width:50%;
+		position:absolute;
+		top:0px;
+		margin :auto;
+		border:3px black groove;
+		border-radius: 20px;
+		box-shadow: 6px 6px 3px black;
+		text-align:center;
+		font-size: 1.6em;
+		color:rgb(80, 80, 224);
+		margin-bottom: 15px;
+	}
+	
+	h2 /*titres et profession*/
+	{
+		text-align:center;
+
+	}
+	h3 /*nom*/
+	{
+		color:black;
+		margin-left: 60%;
+		font-size: 1.5em;
+	}
+
+	img
+	{
+		width: 60%;
+		height: 45%;
+		margin-left:20%;
+	}
+	
+	.article /*texte massage hawaiien et californien*/
+	{
+	width: auto;
+	padding-left: 2px;
+	}
+
+	p
+	{
+		font-size:1.3em;
+		font-weight: bold;
+		color:rgb(80, 80, 224);;
+		margin:2px;
+		width:auto;
+	}
+
+	em
+	{
+		font-style: oblique;
+		font-size: 1.2em;
+	}
+	
+	ul
+	{
+		list-style-type:none;
+		display:flex;
+		margin-top: 80px;
+		margin: auto;
+	}
+	nav li
+	{
+		font-size:20px;	
+		font-weight: bold;
+	}
+	nav a
+	{
+		text-decoration:none;
+		font-size:25px;
+		color:rgb(80, 80, 224);
+		border:2px solid blue;
+		border-radius: 30px;
+		box-shadow: 5px 5px 5px black ;
+		padding:5px;
+	
+	}
+
+	a:hover
+	{
+		color:green;
+	}
+
+}
+
+
+
+	

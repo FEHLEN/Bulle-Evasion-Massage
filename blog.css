@@ -1,0 +1,62 @@
+body
+{
+	background-image:url("bidartmini.jpg");
+	width: auto;
+}
+#imageHawaii
+{
+	margin-left:40%;
+
+}
+@media all and (max-width:1024px)
+{
+	
+	#imageHawaii
+	{
+		margin-left: 10%;
+		
+	}
+	
+	
+	
+}
+h1
+{
+	font-family: Geogia;
+	border : 3px solid black;
+	box-shadow:3px 3px 2px black;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 1.7em;
+}
+
+p
+{
+	font-size: 1.5em;
+}
+
+
+footer
+{
+	text-align: center;
+}
+
+em
+{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+a
+{
+	font-size:20px;
+	padding-left: 30px;
+	margin:2px;
+	color:black;
+	
+}
+
+

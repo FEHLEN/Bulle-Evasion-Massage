@@ -1,0 +1,99 @@
+body
+{
+	background-image:url("bidartmini.jpg");
+	width: 100%;
+}
+#image_hawaii
+{
+	width: 20%;margin:auto;
+}
+header h2{
+	width: 20%;margin:auto;text-align: center;color: rgb(82, 141, 165);font-size: 2rem;padding-top: 2%;
+}
+header h3{
+	width: 50%;margin:auto;text-align: center;padding-bottom: 2%;font-size: 1.5rem;color:rgb(24, 100, 145);
+}
+header h4{
+	position: absolute;right: 50px;top:10px;font-size: 1.5rem;
+}
+header a{
+	font-size: 1.2rem;text-decoration: none;color:rgb(24, 100, 145);
+}
+h2{             
+    opacity: 0;animation: anim 2s infinite;        /*plus besoin de préfixe pour cette commande avec firefox*/
+    animation-delay: 0.5s; 
+}
+@keyframes anim {0% {opacity: 0;}50% {opacity: 0;}100% {opacity: 1;}
+}
+section{
+	width: 80%;margin:auto;
+}
+section h4{
+	width:35%;text-align:center;background-color:#fff;border-bottom:1px 1px solid rgb(71, 71, 73);box-shadow: 3px 5px 2px rgb(116, 123, 126);border-radius: 10px ;padding:4px;font-size: 1.5rem;color:rgb(22, 47, 61);
+}
+section h5{
+	font-size: 1.2rem;
+}
+section p{
+	font-size: 1.4rem;
+}
+em{
+	font-weight: bold;
+}
+section h1{
+	width:35%;margin-top:5%;text-align:center;background-color:#fff;border-bottom:1px 1px solid rgb(116, 116, 121);box-shadow: 3px 5px 2px rgb(116, 123, 126);border-radius: 10px ;padding:4px;font-size: 1.5rem;color:rgb(22, 47, 61);
+}
+footer{
+	width: 90%;margin:auto;margin-top: 5%;
+}
+#savoir_plus{
+	display: flex;flex-direction: row;
+}
+.wiki{
+	font-size: 1.5rem;text-align: center;margin-bottom: 5%;
+}
+.loomi, .suedois, .californien{
+	width: 20%;text-align: center;border:2px solid rgb(24, 100, 145);border-radius: 20px;background:#ffff;margin:auto;margin-bottom: 5%;
+}
+footer a{
+	text-decoration: none;color:rgb(22, 47, 61);font-size: 1.5rem;font-weight: bold;
+}
+
+@media all and (max-width:1024px)
+{
+	#image_hawaii{
+		width:65%;margin:auto;
+	}
+	header h2{
+		width: 30%;margin:auto;text-align: center;color: rgb(82, 141, 165);font-size: 2rem;padding-top: 2%;
+	}
+	header h4{
+		width:40%;position: absolute;top:245px;right:5px;
+	}
+	section h1
+	{
+		width: 50%;
+	}
+	section h4
+	{
+		width:50%;
+	}
+	p
+	{
+		font-size: 1.7em;
+	}
+	footer
+	{
+		text-align: center;
+	}
+	.loomi, .suedois, .californien{
+		width: 30%;text-align: center;border:2px solid rgb(24, 100, 145);border-radius: 20px;background:#ffff;margin:auto;margin-bottom: 5%;
+	}
+	em
+	{
+		font-size: 1.3em;font-weight: bold;
+	}
+	
+}
+
+

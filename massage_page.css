@@ -1,194 +1,93 @@
-body
+body{
+	background: url("image_plume.jpg");width:auto;height: auto;margin:0px;padding:0px;display:flex;flex-direction: column;}
+section{
+	padding-bottom: 50px;}
+header h1 /*bulle evasion*/
 {
-	background: url("image_plume.jpg");
-	width:auto;
-	display:flex;
-	flex-direction: column;
+	width:50%;margin-left: 5%;padding:10px;border:3px black groove;border-radius: 20px;box-shadow: 6px 6px 3px rgb(161, 165, 165);text-align:center;font-size: 40px;color:rgb(82, 141, 165);margin-bottom: 15px;
 }
-
-h1 /*bulle evasion*/
-	{
-		width:50%;
-		position:absolute;
-		top:0px;
-		margin :auto;
-		border:3px black groove;
-		border-radius: 20px;
-		box-shadow: 6px 6px 3px black;
-		text-align:center;
-		font-size: 40px;
-		color:rgb(123, 191, 218);
-		margin-bottom: 15px;
-	}
-
+span{
+	color: rgb(82, 141, 165);
+}
+header h3{
+	margin:0px;margin-left: 60%;color:rgb(10, 61, 82);font-size:50px;
+}
+nav{
+	width: 80%;margin:auto;margin-top: 50px;margin-bottom: 20px;
+}
+nav a{
+	text-decoration:none;font-size:35px;color:rgb(14, 46, 59);border:2px solid rgb(82, 141, 165);border-top-right-radius: 30px;border-top-left-radius: 30px;box-shadow: 5px 5px 5px rgb(161, 165, 165) ;padding:7px;
+}
+ul{
+	list-style-type:none;display:flex;flex-direction:row;margin-top: 80px;margin-left: 20%;
+}
+nav li
+{
+	margin-right:25px;font-size:20px;font-weight: bold;
+}
+.salle{
+	width: 80%;margin:auto;;
+}
+img
+{
+	width: 800px;height: 400px;margin-left:25%;border:3px solid rgb(82, 141, 165);
+}
 h2 /*titres et profession*/
 {
-	text-align:center;
-	font-size: 35px;
-	color:rgb(19, 58, 66) ;
+	text-align:center;font-size: 35px;color:rgb(14, 46, 59) ;
+}
+article{
+	width: 90%;margin:auto;
 }
 p
 {
-	font-size:30px;
-	font-weight: bold;
-	color:rgb(41, 83, 122);;
-	margin:2px;
-	width:auto;
+	font-size:30px;font-weight: bold;color:rgb(14, 46, 59);margin:2px;width:auto;
 }
 em
 {
-	font-style: oblique;
-	font-size: 25px;
-	color:rgb(14, 46, 59);
+	font-style: oblique;font-size: 25px;color:rgb(14, 46, 59);
 }
 footer
 {
-	text-align: center;
-	color:rgb(10, 61, 82);
+	margin:0px;padding-bottom:10px;background-color: rgb(185, 202, 216);width: 100%;text-align: center;color:rgb(10, 61, 82);
 }
 	
-nav
-{
-	margin-top: 50px;
-	margin-right: 10px;
-	margin-bottom: 20px;
-}
-
-h3
-{
-	margin-left: 60%;
-	color:rgb(10, 61, 82);
-	font-size:50px;
-}
-ul
-	{
-		list-style-type:none;
-		display:flex;
-		margin-top: 80px;
-		margin-left: 20%;
-	}
-nav li
-	{
-		margin-right:25px;
-		font-size:20px;	
-		font-weight: bold;
-	}
-nav a
-	{
-		text-decoration:none;
-		font-size:25px;
-		color:rgb(80, 80, 224);
-		border:2px solid blue;
-		border-radius: 30px;
-		box-shadow: 5px 5px 5px black ;
-		padding:5px;
-	
-	}
-img
-{
-	width: 800px;
-	margin-left:20%
-}
-
-
-
 @media all and (max-width:1024px) /*responsive*/
 {
 	body
 	{
-		background:url("image_plume.jpg");
-		width:auto;
-		display:flex;
-		flex-direction: column;
-
+		background:url("image_plume.jpg");width:100%;display:flex;flex-direction: column;
 	}
-	
-	
-	h1 /*bulle evasion*/
-	{
-		width:50%;
-		position:absolute;
-		top:0px;
-		margin :auto;
-		border:3px black groove;
-		border-radius: 20px;
-		box-shadow: 6px 6px 3px black;
-		text-align:center;
-		font-size: 1.8em;
-		color:rgb(80, 80, 224);
-		margin-bottom: 15px;
+	span{
+		font-size: 1.5rem;
 	}
-	
-	h2 /*titres et profession*/
-	{
-		text-align:center;
-		font-size:1.2em;
-
+	header h3{
+		margin-left: 40%;color:rgb(10, 61, 82);font-size:1.5rem;
 	}
-	h3 /*nom*/
-	{
-		color:black;
-		margin-left: 60%;
-		font-size: 1.5em;
+	nav{
+		width: 100%;
 	}
-
-	img
-	{
-		width: 60%;
-		height: 35%;
-		margin-left:20%;
+	ul{
+		display: flex;flex-direction: column;margin:0px;padding:0px;
 	}
-	
-	.article /*texte massage hawaiien et californien*/
-	{
-	width: auto;
-	padding-left: 2px;
+	nav li{
+		margin:20px;
 	}
-
-	p
-	{
-		font-size:1.3em;
-		font-weight: bold;
-		color:rgb(80, 80, 224);;
-		margin:2px;
-		width:auto;
+	nav a{
+		font-size: 20px;
 	}
-
-	em
-	{
-		font-style: oblique;
-		font-size: 1.2em;
+	#salle{
+		display:none;
 	}
-	
-	ul
-	{
-		list-style-type:none;
-		display:flex;
-		margin-top: 80px;
-		margin: auto;
+	header{
+		width: 100%;
 	}
-	nav li
-	{
-		font-size:20px;	
-		font-weight: bold;
+	footer{
+		width: 100%;margin:0px;padding-bottom:5%;
+	}	
+	footer p{
+		font-size: 1.5rem;
 	}
-	nav a
-	{
-		text-decoration:none;
-		font-size:25px;
-		color:rgb(80, 80, 224);
-		border:2px solid blue;
-		border-radius: 30px;
-		box-shadow: 5px 5px 5px black ;
-		padding:5px;
-	
-	}
-
-	a:hover
-	{
-		color:green;
-	}
-
 }
 
 

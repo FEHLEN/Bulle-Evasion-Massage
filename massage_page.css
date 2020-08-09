@@ -1,5 +1,5 @@
 body{
-	background: url("image_plume.jpg");width:auto;height: auto;margin:0px;padding:0px;display:flex;flex-direction: column;}
+	background: url("images/image_plume.jpg");width:auto;height: auto;margin:0px;padding:0px;display:flex;flex-direction: column;}
 section{
 	padding-bottom: 50px;}
 header h1 /*bulle evasion*/
@@ -56,7 +56,7 @@ footer
 {
 	body
 	{
-		background:url("image_plume.jpg");width:100%;display:flex;flex-direction: column;
+		background:url("images/image_plume.jpg");width:100%;display:flex;flex-direction: column;
 	}
 	span{
 		font-size: 1.5rem;

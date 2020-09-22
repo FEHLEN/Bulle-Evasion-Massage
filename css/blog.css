@@ -29,7 +29,7 @@ section{
 	width: 80%;margin:auto;
 }
 section h4{
-	width:35%;text-align:center;background-color:#fff;border-bottom:1px 1px solid rgb(71, 71, 73);box-shadow: 3px 5px 2px rgb(116, 123, 126);border-radius: 10px ;padding:4px;font-size: 1.5rem;color:rgb(22, 47, 61);
+	width:35%;text-align:center;background-color:#fff;border-bottom:1px solid rgb(71, 71, 73);box-shadow: 3px 5px 2px rgb(116, 123, 126);border-radius: 10px ;padding:4px;font-size: 1.5rem;color:rgb(22, 47, 61);
 }
 section h5{
 	font-size: 1.2rem;
@@ -41,7 +41,7 @@ em{
 	font-weight: bold;
 }
 section h1{
-	width:35%;margin-top:5%;text-align:center;background-color:#fff;border-bottom:1px 1px solid rgb(116, 116, 121);box-shadow: 3px 5px 2px rgb(116, 123, 126);border-radius: 10px ;padding:4px;font-size: 1.5rem;color:rgb(22, 47, 61);
+	width:35%;margin-top:5%;text-align:center;background-color:#fff;border-bottom:1px solid rgb(116, 116, 121);box-shadow: 3px 5px 2px rgb(116, 123, 126);border-radius: 10px ;padding:4px;font-size: 1.5rem;color:rgb(22, 47, 61);
 }
 footer{
 	width: 90%;margin:auto;margin-top: 5%;
@@ -76,7 +76,7 @@ footer a{
 	}
 	section h4
 	{
-		width:50%;
+		width:60%;
 	}
 	p
 	{
@@ -85,6 +85,9 @@ footer a{
 	footer
 	{
 		text-align: center;
+	}
+	footer a{
+		font-size: 1.2rem;
 	}
 	.loomi, .suedois, .californien{
 		width: 30%;text-align: center;border:2px solid rgb(24, 100, 145);border-radius: 20px;background:#ffff;margin:auto;margin-bottom: 5%;
